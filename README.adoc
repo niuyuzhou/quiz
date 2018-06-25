@@ -1,1 +1,11 @@
-Please enter complete
+Implement the below REST API:
+URL: http://localhost:8080/user
+Body: {"id": ???}
+  // ??? is a number like 123, 12
+Method: POST
+Return: {"id": 123, "name": "Tom"}
+
+Please finish the above function based on the current framework.
+The main work should be controller and Service, Unit test would be optional.
+
+Controller -> UserService -> dao
