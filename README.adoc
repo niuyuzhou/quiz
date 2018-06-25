@@ -15,4 +15,4 @@ Finish the above function based on the current framework.
 
 The main work should be controller and Service, Unit test would be optional.
 
-Controller -> UserService -> dao
+Controller -> UserService -> dao (having been finished)
