@@ -17,4 +17,4 @@ The main work should be controller and Service, Unit test would be optional.
 
 Controller -> UserService -> dao (having been finished)
 
-You need to login with your own github account(if you don't have please create on) and then fork a branch from the master branch of mine. After you finish you could commit a pull request to master branch of mine.
+You need to login with your own github account(if you don't have please create one) and then fork a branch from the master branch of mine. After you finish you could commit a pull request to master branch of mine.
