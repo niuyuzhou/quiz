@@ -3,6 +3,7 @@ When you run the current application and input http://localhost:8080/greeting, i
 Please implement the below REST API:
 
 Usage: to find the total numbers of the users with the name searched
+
 URL: http://localhost:8080/user
 
 Body: {"name": "Tom"}
