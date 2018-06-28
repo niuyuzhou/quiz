@@ -7,13 +7,16 @@ Usage: to find the total numbers of the users with the name searched
 URL: http://localhost:8080/user
 
 Body: {"name": "Tom"}
-// Tom is example, you could use the name like John, emily and so on.
+
+  Tom is example, you could use the name like John, emily and so on.
 
 Method: POST
 
 Return: {name": "Tom", "TotalNumbers": ??}
-  // name should be what you got by Body
-  // ?? should be the actual numbers of users whose name is what you searched
+  
+  name should be what you got by Body
+  
+  ?? should be the actual numbers of users whose name is what you searched
 
 It should be finished based on the current framework.
 
