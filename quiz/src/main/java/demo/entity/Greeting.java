@@ -1,4 +1,4 @@
-package entity;
+package demo.entity;
 
 public class Greeting {
 
