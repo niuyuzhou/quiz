@@ -19,6 +19,8 @@ public class UserController {
 	@RequestMapping(path = "/user", method = RequestMethod.POST)
 	public UserQueryResultBean createUser(@RequestBody User user) {
 		
+		//TODO, We need to validate the input parameter
+		//TOTO, we need to add the exception handler
 		UserQueryResultBean result = this.userService.getUserTotalsByUsergetUserTotalsByUser(user);
 		
 		return result;
