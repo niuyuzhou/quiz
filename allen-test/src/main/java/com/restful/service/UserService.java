@@ -25,8 +25,6 @@ public class UserService {
 		
 		int raa = ra.get(user.getName());
 		
-		System.out.println(raa);
-		
 		result.setTotalNumbers(raa);
 		result.setName(user.getName());
 		
