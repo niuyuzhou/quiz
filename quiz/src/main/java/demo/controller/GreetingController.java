@@ -19,11 +19,6 @@ public class GreetingController {
                             String.format(template, name));
     }
     
-    @RequestMapping("/user")
-    public Greeting user(@RequestParam(value="name", defaultValue="Tom") String name) {
-    	
-    	return new Greeting(name);
-    }
     
     
 }
