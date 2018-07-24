@@ -12,9 +12,11 @@ public class User {
     @JsonProperty("TotalNumbers")
     private int totalNumbers;
     private UserServiceImpl usi;
-
+    public User() {
+        super();
+    }
     public User(long id, String name) {
-        //this.id = id;
+        this.id = id;
         this.name = name;
         
         if(usi == null){
@@ -36,6 +38,10 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setTotalNumbers(int totalNumbers) {
+        this.totalNumbers = totalNumbers;
     }
     
     public int getTotalNumbers(){
