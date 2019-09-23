@@ -1,3 +1,4 @@
+It's based on spring boot and maven.
 When you run the current application and input http://localhost:8080/greeting, it will return {"id":1,"content":"Hello, World!"}
 
 Please implement the below REST API:
@@ -16,7 +17,7 @@ Return: {name": "Tom", "TotalNumbers": ??}
   
   name should be what you got by Body
   
-  ?? should be the actual numbers of users whose name is what you searched
+  ?? should be the actual numbers of users whose name is what you are searching
 
 It should be finished based on the current framework.
 
