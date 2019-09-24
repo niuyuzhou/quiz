@@ -1,13 +1,17 @@
 package demo.dao;
 
 import demo.entity.User;
-import org.junit.jupiter.api.Test;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.IntStream;
 
+/**
+ * The type User hard code repository.
+ */
+@Repository
 public class UserHardCodeRepository implements UserRepository {
     @Override
     public List<User> getUsers() {
