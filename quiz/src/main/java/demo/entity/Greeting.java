@@ -1,5 +1,8 @@
 package demo.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 public class Greeting {
 
     private final long id;
