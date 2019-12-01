@@ -1,7 +1,6 @@
 package demo.controller;
 
 import demo.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,9 +15,8 @@ public class UserController {
     }
 
     @RequestMapping("/user")
-    public String user(@RequestParam(value="name", defaultValue="Tom") String name) {
+    public String user(@RequestParam(value = "name", defaultValue = "Tom") String name) {
         int nums = this.userService.getTotalNumbersForName(name);
-        String ans = String.format("{name\": %s, \"TotalNumbers\": %d}", name, nums);
-        return ans;
+        return String.format("{name\": %s, \"TotalNumbers\": %d}", name, nums);
     }
 }
